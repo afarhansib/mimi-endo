@@ -20,3 +20,5 @@ This sugoi addon bans the End dimension in Minecraft Bedrock, making it impossib
 ## 🎀 Support 🎀
 
 If you need help or want to suggest new kawaii features, feel free to open an issue! Let's make Minecraft even more sugoi together! (ﾉ´ヮ`)ﾉ*: ･ﾟ
+
+Testing Workflows.
