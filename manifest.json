@@ -1,18 +1,37 @@
 {
-    "format_version": 2,
-    "header": {
-      "name": "Mimi Endo",
-      "description": "Bans the End dimension for a dragon-free adventure!",
-      "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-      "version": [1, 0, 0],
-      "min_engine_version": [1, 16, 0]
-    },
-    "modules": [
-      {
-        "type": "data",
-        "uuid": "b8bab2d8-2b4c-4a3c-a1d9-4f4c7d1576b8",
-        "version": [1, 0, 0]
-      }
+  "format_version": 2,
+  "header": {
+    "name": "Mimi Endo",
+    "description": "Bans the End dimension for a dragon-free adventure!",
+    "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
     ]
-  }
-  
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b8bab2d8-2b4c-4a3c-a1d9-4f4c7d1576b8",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.14.0"
+    }
+  ]
+}
